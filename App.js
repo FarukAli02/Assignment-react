@@ -5,9 +5,6 @@ import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 import Home from "./screen/Homescreen";
 import Login from "./screen/Loginscreen";
 import Signup from "./screen/Signupscreen";
-import Products from "./screen/Products";
-import Category from "./screen/Category";
-import Inventory from "./screen/Inventory";
 import Students from "./screen/Students";
 const Stack = createNativeStackNavigator();
 
@@ -36,10 +33,6 @@ const App = () => {
       >
     <Stack.Screen name="Login" component={Login} options={{ title: "Enter the Anime Realm" }} />
     <Stack.Screen name="Signup" component={Signup} options={{ title: "Join the Guild" }} />
-    <Stack.Screen name="Home" component={Home} options={{ title: "Welcome Home, Senpai!" }} />
-    <Stack.Screen name="Products" component={Products} options={{ title: "Treasured Products" }} />
-    <Stack.Screen name="Category" component={Category} options={{ title: "Mystic Categories" }} />
-    <Stack.Screen name="Inventory" component={Inventory} options={{ title: "Inventory Scroll" }} />
 <Stack.Screen name="Students" component={Students} options={{ title: "Student Zabfest" }}/>
       </Stack.Navigator>
     </NavigationContainer>
