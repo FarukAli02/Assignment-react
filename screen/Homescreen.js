@@ -28,30 +28,7 @@ const Home = ({ navigation }) => {
       <Text style={styles.appName}>Anime Mart</Text>
       <Text style={styles.welcome}>Step into the Anime Realm!</Text>
 
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => navigation.navigate('Products')}
-        activeOpacity={0.7}
-      >
-        <Text style={styles.buttonText}>Explore the Treasured Products</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => navigation.navigate('Category')}
-        activeOpacity={0.7}
-      >
-        <Text style={styles.buttonText}>Discover Mystic Categories</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => navigation.navigate('Inventory')}
-        activeOpacity={0.7}
-      >
-
-        <Text style={styles.buttonText}>Open the Inventory Scroll</Text>
-      </TouchableOpacity>
+    
        <TouchableOpacity
               style={styles.button}
               onPress={() => navigation.navigate('Students')}
